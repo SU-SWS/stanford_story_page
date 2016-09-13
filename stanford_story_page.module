@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Stanford Story Page feature.
+ */
+
+include_once 'stanford_story_page.features.inc';
