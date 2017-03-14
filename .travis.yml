@@ -84,7 +84,7 @@ before_install:
 install:
   # install self-service site, disable webauth module, start webserver and selenium webdriver
   - $HOME/stanford_travisci_scripts/bin/install.sh
-  - $HOME/SU-SWS/stanford_story_page/.travis.sh
+  - $HOME/html/sites/all/modules/stanford/stanford_story_page/.travis.sh
 
 before_script:
   # download linky_clicky, grab related tests, and start xvfb virtual display
