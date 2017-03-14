@@ -49,7 +49,7 @@
 env:
   global:
 #    - PRODUCT_NAME=""
-    - ENABLE_MODULES="stanford_paragraph_types"
+    - ENABLE_MODULES="stanford_paragraph_types stanford_story_page"
     - DISABLE_MODULES="webauth"
 #    - DEPLOYER_BRANCH=""
 #    - DRUPAL_PROFILE_BRANCH=""
