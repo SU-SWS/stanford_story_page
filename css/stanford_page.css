@@ -1,0 +1,19 @@
+.node-type-stanford-story .hide-title #page-title {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+}
+.node-type-stanford-story .main {
+  padding-top: 0;
+}
+.node-type-stanford-story .content-head {
+  margin-bottom: 0;
+}
+.node-type-stanford-story #main .region:not(.region-content),
+.node-type-stanford-story #content-wrapper > div:not(.content-body) {
+  max-width: 1170px;
+  margin: 0 auto;
+}
