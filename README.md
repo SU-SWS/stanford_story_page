@@ -1,18 +1,11 @@
 #[Stanford Story Page](https://github.com/SU-SWS/stanford_story_page)
-##### Version: 7.x-1.x
+##### Version: 7.x-2.1-dev
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 [Changelog.txt](CHANGELOG.txt)
 
-The Stanford Module feature is used to create a long format story page using
-paragraphs.
+This module provides a content type (Stanford Page) that incorporates the Stanford Image Field Collection. It is the de-facto page content type for all Jumpstart products. Included in this module is also a view that works with the Stanford manage content feature to provide an administration page where users can view, sort, search, and filter through Stanford Page content.
 
-
-Sub Modules
----
-
-**[Stanford Module Sub Module](https://github.com/SU-SWS/stanford_module)**
-This module provides the Stanford Person entity reference field. By default an instance of this field is created on Stanford Publications but it may be added to other content types.
 
 Installation
 ---
