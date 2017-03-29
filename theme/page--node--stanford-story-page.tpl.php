@@ -118,7 +118,7 @@
         <div id="main-upper" class="row-fluid main-upper"> <?php print render($page['main_upper']); ?> </div>
       <?php endif; ?>
       <div id="main-content" class="main-content">
-        <div id="content" class="mc-content">
+        <div id="content" class="content-story-page">
           <div id="content-wrapper" class="content-wrapper">
             <div id="content-head" class="row-fluid content-head">
               <?php if ($page['highlighted']): ?>
