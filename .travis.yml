@@ -49,7 +49,7 @@
 env:
   global:
 #    - PRODUCT_NAME=""
-    - ENABLE_MODULES="stanford_paragraph_types-clean-check stanford_story_page"
+    - ENABLE_MODULES="stanford_paragraph_types-7.x-1.x stanford_story_page"
     - DISABLE_MODULES="webauth"
 #    - DEPLOYER_BRANCH=""
 #    - DRUPAL_PROFILE_BRANCH=""
@@ -84,7 +84,6 @@ before_install:
 install:
   # install self-service site, disable webauth module, start webserver and selenium webdriver
   - $HOME/stanford_travisci_scripts/bin/install.sh
-  - $HOME/html/sites/all/modules/stanford/stanford_story_page/.travis.sh
 
 before_script:
   # download linky_clicky, grab related tests, and start xvfb virtual display
