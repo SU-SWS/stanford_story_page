@@ -153,3 +153,4 @@ exclude_paths:
 - "*.twig"
 - "**.tpl.php"
 - "**.strongarm.inc"
+- "**.paragraphs_defaults.inc"
