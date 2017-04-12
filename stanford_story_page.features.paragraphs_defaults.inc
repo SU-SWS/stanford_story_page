@@ -144,7 +144,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/matt-jones-67740-a_0.jpeg',
                     'filesize' => 22139,
@@ -174,7 +174,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/matt-jones-67740-b_0.jpeg',
                     'filesize' => 25163,
@@ -413,7 +413,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/wynand-van-poortvliet-64523_0_0.jpg',
                     'filesize' => 78257,
@@ -470,7 +470,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/andrea-vincenzo-abbondanza-38989_0_0.jpg',
                     'filesize' => 80167,
@@ -527,7 +527,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/dino-reichmuth-85708_0_0.jpg',
                     'filesize' => 90817,
@@ -593,7 +593,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/joshua-earle-1794_0.jpg',
               'filesize' => 570421,
@@ -646,7 +646,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/tamarcus-brown-134928_0_0.jpg',
               'filesize' => 221305,
@@ -723,7 +723,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/steven-lewis-342_0_0.jpg',
                     'filesize' => 58782,
@@ -780,7 +780,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/alexis-brown-85793_0_0.jpg',
                     'filesize' => 65692,
@@ -837,7 +837,7 @@ function stanford_story_page_paragraphs_defaults() {
                 'und' => array(
                   0 => array(
                     'filemime' => 'image/jpeg',
-                    'alt' => '',
+                    'alt' => 'please insert alt text for all images',
                     'title' => '',
                     'uri' => 'assets/aidan-meyer-129877_0_0.jpg',
                     'filesize' => 61170,
@@ -893,7 +893,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/dmitri-popov-152263_0_0.jpg',
               'filesize' => 708228,
@@ -956,7 +956,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/fritz-walter-152075_0.jpg',
               'filesize' => 540201,
@@ -1002,7 +1002,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/clem-onojeghuo-210987_0.jpg',
               'filesize' => 550357,
@@ -1048,7 +1048,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/norman-toth-177973_0.jpg',
               'filesize' => 457458,
@@ -1124,7 +1124,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/alejandro-alvarez-150148b_0.jpeg',
               'filesize' => 468462,
@@ -1218,7 +1218,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'filemime' => 'image/jpeg',
-              'alt' => '',
+              'alt' => 'please insert alt text for all images',
               'title' => '',
               'uri' => 'assets/larm-rmah-216854_0.jpg',
               'filesize' => 753361,
