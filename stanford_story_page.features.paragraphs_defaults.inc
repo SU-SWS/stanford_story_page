@@ -1231,5 +1231,613 @@ function stanford_story_page_paragraphs_defaults() {
     ),
   );
 
+  $paragraphs_defaults['node-stanford_story_page-field_s_story_sections-homepage'] = array(
+    'label' => 'Homepage',
+    'machine_name' => 'homepage',
+    'entity_type' => 'node',
+    'field_name' => 'field_s_story_sections',
+    'bundle' => 'stanford_story_page',
+    'paragraphs' => array(
+      0 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_hero',
+        'field_p_hero_alignment' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'overlay-top overlay-left',
+            ),
+          ),
+        ),
+        'field_p_hero_headline' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'We\'re so glad that you\'re here',
+              'format' => NULL,
+              'safe_value' => 'We&#039;re so glad that you&#039;re here',
+            ),
+          ),
+        ),
+        'field_p_hero_image' => array(
+          'und' => array(
+            0 => array(
+              'filemime' => 'image/png',
+              'alt' => '',
+              'title' => '',
+              'uri' => 'assets/stanford-main.png',
+              'filesize' => 10067260,
+            ),
+          ),
+        ),
+        'field_p_hero_more_link' => array(
+          'und' => array(
+            0 => array(
+              'url' => '<front>',
+              'title' => 'Learn more about our department',
+              'attributes' => array(),
+            ),
+          ),
+        ),
+        'field_p_hero_style' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'image',
+            ),
+          ),
+        ),
+        'field_p_hero_superhead' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'Welcome To Our Site!',
+              'format' => NULL,
+              'safe_value' => 'Welcome To Our Site!',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_hero',
+        'entity_type' => 'paragraphs_item',
+      ),
+      1 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_callout',
+        'field_p_callout_text' => array(
+          'und' => array(
+            0 => array(
+              'value' => '<p>The Department Name Mission</p>',
+              'format' => 'minimal_html',
+              'safe_value' => '<p>The Department Name Mission</p>',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_callout',
+        'entity_type' => 'paragraphs_item',
+      ),
+      2 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_wysiwyg',
+        'field_p_wysiwyg_body' => array(
+          'und' => array(
+            0 => array(
+              'value' => '<p>Our mission is to&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+',
+              'format' => 'content_editor_text_format',
+              'safe_value' => '<p>Our mission is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_wysiwyg',
+        'entity_type' => 'paragraphs_item',
+      ),
+      3 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_icon',
+        'field_p_icon_columns' => array(
+          'und' => array(
+            0 => array(
+              'field_name' => 'field_p_icon_columns',
+              'field_p_icon_color' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'red',
+                  ),
+                ),
+              ),
+              'field_p_icon_icon' => array(
+                'und' => array(
+                  0 => array(
+                    'icon' => 'globe',
+                  ),
+                ),
+              ),
+              'field_p_icon_links' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Read how our work betters the world',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_icon_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Global Initiatives',
+                    'format' => NULL,
+                    'safe_value' => 'Global Initiatives',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_icon_columns',
+              'entity_type' => 'field_collection_item',
+            ),
+            1 => array(
+              'field_name' => 'field_p_icon_columns',
+              'field_p_icon_color' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'red',
+                  ),
+                ),
+              ),
+              'field_p_icon_icon' => array(
+                'und' => array(
+                  0 => array(
+                    'icon' => 'graduation-cap',
+                  ),
+                ),
+              ),
+              'field_p_icon_links' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Explore our unrivaled programs',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_icon_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Degree Programs',
+                    'format' => NULL,
+                    'safe_value' => 'Degree Programs',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_icon_columns',
+              'entity_type' => 'field_collection_item',
+            ),
+            2 => array(
+              'field_name' => 'field_p_icon_columns',
+              'field_p_icon_color' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'red',
+                  ),
+                ),
+              ),
+              'field_p_icon_icon' => array(
+                'und' => array(
+                  0 => array(
+                    'icon' => 'flask',
+                  ),
+                ),
+              ),
+              'field_p_icon_links' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'See what or faculty is focused on',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_icon_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Research Areas',
+                    'format' => NULL,
+                    'safe_value' => 'Research Areas',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_icon_columns',
+              'entity_type' => 'field_collection_item',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_icon',
+        'entity_type' => 'paragraphs_item',
+      ),
+      4 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_callout',
+        'field_p_callout_text' => array(
+          'und' => array(
+            0 => array(
+              'value' => '<p>The Department Name Experience</p>',
+              'format' => 'minimal_html',
+              'safe_value' => '<p>The Department Name Experience</p>',
+            ),
+          ),
+        ),
+        'field_p_callout_color' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'light-taupe',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_callout',
+        'entity_type' => 'paragraphs_item',
+      ),
+      5 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_cards',
+        'field_p_cards_card' => array(
+          'und' => array(
+            0 => array(
+              'field_name' => 'field_p_cards_card',
+              'field_p_card_action_button' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'link',
+                  ),
+                ),
+              ),
+              'field_p_card_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Read her full story',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_card_hide_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 0,
+                  ),
+                ),
+              ),
+              'field_p_card_image' => array(
+                'und' => array(
+                  0 => array(
+                    'filemime' => 'image/jpeg',
+                    'alt' => '',
+                    'title' => '',
+                    'uri' => 'assets/quino-al-260327.jpg',
+                    'filesize' => 4265875,
+                  ),
+                ),
+              ),
+              'field_p_card_text' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Ruby Nelson reflects on how finding ways to balance her studies and hobbies has lead to increased happiness and success.',
+                    'format' => NULL,
+                    'safe_value' => 'Ruby Nelson reflects on how finding ways to balance her studies and hobbies has lead to increased happiness and success.',
+                  ),
+                ),
+              ),
+              'field_p_card_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Community Spotlight',
+                    'format' => NULL,
+                    'safe_value' => 'Community Spotlight',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_cards_card',
+              'entity_type' => 'field_collection_item',
+            ),
+            1 => array(
+              'field_name' => 'field_p_cards_card',
+              'field_p_card_action_button' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'link',
+                  ),
+                ),
+              ),
+              'field_p_card_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Discover how our students team up',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_card_hide_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 0,
+                  ),
+                ),
+              ),
+              'field_p_card_image' => array(
+                'und' => array(
+                  0 => array(
+                    'filemime' => 'image/jpeg',
+                    'alt' => '',
+                    'title' => '',
+                    'uri' => 'assets/stefan-stefancik-257625.jpg',
+                    'filesize' => 11260498,
+                  ),
+                ),
+              ),
+              'field_p_card_text' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'At Department Name, we believe that the power of us outweighs the power of I.',
+                    'format' => NULL,
+                    'safe_value' => 'At Department Name, we believe that the power of us outweighs the power of I.',
+                  ),
+                ),
+              ),
+              'field_p_card_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'A Culture of Collaboration',
+                    'format' => NULL,
+                    'safe_value' => 'A Culture of Collaboration',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_cards_card',
+              'entity_type' => 'field_collection_item',
+            ),
+            2 => array(
+              'field_name' => 'field_p_cards_card',
+              'field_p_card_action_button' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'link',
+                  ),
+                ),
+              ),
+              'field_p_card_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Meet the 2018 incoming class',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_card_hide_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 0,
+                  ),
+                ),
+              ),
+              'field_p_card_image' => array(
+                'und' => array(
+                  0 => array(
+                    'filemime' => 'image/jpeg',
+                    'alt' => '',
+                    'title' => '',
+                    'uri' => 'assets/faustin-tuyambaze-135473.jpg',
+                    'filesize' => 5941123,
+                  ),
+                ),
+              ),
+              'field_p_card_text' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'What impact with this year\'s incoming freshman have on the world? What role will you play?',
+                    'format' => NULL,
+                    'safe_value' => 'What impact with this year&#039;s incoming freshman have on the world? What role will you play?',
+                  ),
+                ),
+              ),
+              'field_p_card_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'The Class of 2022',
+                    'format' => NULL,
+                    'safe_value' => 'The Class of 2022',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_cards_card',
+              'entity_type' => 'field_collection_item',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_cards',
+        'entity_type' => 'paragraphs_item',
+      ),
+      6 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_callout',
+        'field_p_callout_text' => array(
+          'und' => array(
+            0 => array(
+              'value' => '<p>Latest Happenings at Department Name</p>',
+              'format' => 'minimal_html',
+              'safe_value' => '<p>Latest Happenings at Department Name</p>',
+            ),
+          ),
+        ),
+        'field_p_callout_color' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'light-taupe',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_callout',
+        'entity_type' => 'paragraphs_item',
+      ),
+      7 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_views',
+        'field_p_views_view' => array(
+          'und' => array(
+            0 => array(
+              'moddelta' => 'views:stanford_events_views-block',
+            ),
+            1 => array(
+              'moddelta' => 'views:f73ff55b085ea49217d347de6630cd5a',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_views',
+        'entity_type' => 'paragraphs_item',
+      ),
+      8 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_callout',
+        'field_p_callout_text' => array(
+          'und' => array(
+            0 => array(
+              'value' => '<p>Connect With Us</p>',
+              'format' => 'minimal_html',
+              'safe_value' => '<p>Connect With Us</p>',
+            ),
+          ),
+        ),
+        'field_p_callout_color' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'light-taupe',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_callout',
+        'entity_type' => 'paragraphs_item',
+      ),
+      9 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_cards',
+        'field_p_cards_card' => array(
+          'und' => array(
+            0 => array(
+              'field_name' => 'field_p_cards_card',
+              'field_p_card_action_button' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'link',
+                  ),
+                ),
+              ),
+              'field_p_card_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Find us on the web',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_card_hide_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 0,
+                  ),
+                ),
+              ),
+              'field_p_card_image' => array(
+                'und' => array(
+                  0 => array(
+                    'filemime' => 'image/jpeg',
+                    'alt' => '',
+                    'title' => '',
+                    'uri' => 'assets/kyra-preston-245906.jpg',
+                    'filesize' => 3652957,
+                  ),
+                ),
+              ),
+              'field_p_card_text' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Stay informed on what\'s going with at Department Name by connecting with us online.',
+                    'format' => NULL,
+                    'safe_value' => 'Stay informed on what&#039;s going with at Department Name by connecting with us online.',
+                  ),
+                ),
+              ),
+              'field_p_card_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => '#DeparmentNameSocial',
+                    'format' => NULL,
+                    'safe_value' => '#DeparmentNameSocial',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_cards_card',
+              'entity_type' => 'field_collection_item',
+            ),
+            1 => array(
+              'field_name' => 'field_p_cards_card',
+              'field_p_card_action_button' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'link',
+                  ),
+                ),
+              ),
+              'field_p_card_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'url' => '<front>',
+                    'title' => 'Subscribe to our newsletter',
+                    'attributes' => array(),
+                  ),
+                ),
+              ),
+              'field_p_card_hide_cta' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 0,
+                  ),
+                ),
+              ),
+              'field_p_card_image' => array(
+                'und' => array(
+                  0 => array(
+                    'filemime' => 'image/jpeg',
+                    'alt' => '',
+                    'title' => '',
+                    'uri' => 'assets/chris-adamus-30863.jpg',
+                    'filesize' => 5383741,
+                  ),
+                ),
+              ),
+              'field_p_card_text' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Get monthly updates on all that\'s going on in Department Name.',
+                    'format' => NULL,
+                    'safe_value' => 'Get monthly updates on all that&#039;s going on in Department Name.',
+                  ),
+                ),
+              ),
+              'field_p_card_title' => array(
+                'und' => array(
+                  0 => array(
+                    'value' => 'Stay Up To Date',
+                    'format' => NULL,
+                    'safe_value' => 'Stay Up To Date',
+                  ),
+                ),
+              ),
+              'entity_bundle' => 'field_p_cards_card',
+              'entity_type' => 'field_collection_item',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_cards',
+        'entity_type' => 'paragraphs_item',
+      ),
+    ),
+  );
+
   return $paragraphs_defaults;
 }

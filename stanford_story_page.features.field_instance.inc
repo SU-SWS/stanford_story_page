@@ -10,7 +10,8 @@
 function stanford_story_page_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-stanford_story_page-field_s_story_hide_title'.
+  // Exported field_instance:
+  // 'node-stanford_story_page-field_s_story_hide_title'.
   $field_instances['node-stanford_story_page-field_s_story_hide_title'] = array(
     'bundle' => 'stanford_story_page',
     'default_value' => array(

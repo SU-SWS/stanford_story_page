@@ -36,6 +36,7 @@ features[node][] = stanford_story_page
 features[paragraphs_defaults][] = node-stanford_story_page-field_s_story_sections-article
 features[paragraphs_defaults][] = node-stanford_story_page-field_s_story_sections-campaign
 features[paragraphs_defaults][] = node-stanford_story_page-field_s_story_sections-fundraising
+features[paragraphs_defaults][] = node-stanford_story_page-field_s_story_sections-homepage
 features[variable][] = additional_settings__active_tab_stanford_story_page
 features[variable][] = ant_pattern_stanford_story_page
 features[variable][] = ant_php_stanford_story_page
