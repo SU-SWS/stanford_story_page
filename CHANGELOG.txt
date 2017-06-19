@@ -1,2 +1,6 @@
 Stanford Story Page x.x-x.x xxxx-xx-xx
 --------------------------------
+
+7.x-1.0              2017-06-19
+-------------------------------
+- Initial Release
