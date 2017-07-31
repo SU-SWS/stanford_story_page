@@ -1251,9 +1251,9 @@ function stanford_story_page_paragraphs_defaults() {
         'field_p_hero_headline' => array(
           'und' => array(
             0 => array(
-              'value' => 'We\'re so glad that you\'re here',
+              'value' => 'You can add a headline here',
               'format' => NULL,
-              'safe_value' => 'We&#039;re so glad that you&#039;re here',
+              'safe_value' => 'You can add a headline here',
             ),
           ),
         ),
@@ -1272,7 +1272,7 @@ function stanford_story_page_paragraphs_defaults() {
           'und' => array(
             0 => array(
               'url' => '<front>',
-              'title' => 'Learn more about our department',
+              'title' => 'You can add a learn more link here',
               'attributes' => array(),
             ),
           ),
@@ -1287,9 +1287,9 @@ function stanford_story_page_paragraphs_defaults() {
         'field_p_hero_superhead' => array(
           'und' => array(
             0 => array(
-              'value' => 'Welcome To Our Site!',
+              'value' => 'Hero Image Title',
               'format' => NULL,
-              'safe_value' => 'Welcome To Our Site!',
+              'safe_value' => 'Hero Image Title',
             ),
           ),
         ),
@@ -1298,37 +1298,27 @@ function stanford_story_page_paragraphs_defaults() {
       ),
       1 => array(
         'field_name' => 'field_s_story_sections',
-        'bundle' => 'p_callout',
-        'field_p_callout_text' => array(
+        'bundle' => 'p_section_header',
+        'field_p_section_color' => array(
           'und' => array(
             0 => array(
-              'value' => '<p>The Department Name Mission</p>',
-              'format' => 'minimal_html',
-              'safe_value' => '<p>The Department Name Mission</p>',
+              'value' => 'light-taupe',
             ),
           ),
         ),
-        'entity_bundle' => 'p_callout',
+        'field_p_section_heading' => array(
+          'und' => array(
+            0 => array(
+              'value' => '"Department Name" Mission',
+              'format' => NULL,
+              'safe_value' => '&quot;Department Name&quot; Mission',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_section_header',
         'entity_type' => 'paragraphs_item',
       ),
       2 => array(
-        'field_name' => 'field_s_story_sections',
-        'bundle' => 'p_wysiwyg',
-        'field_p_wysiwyg_body' => array(
-          'und' => array(
-            0 => array(
-              'value' => '<p>Our mission is to&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-',
-              'format' => 'content_editor_text_format',
-              'safe_value' => '<p>Our mission is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-',
-            ),
-          ),
-        ),
-        'entity_bundle' => 'p_wysiwyg',
-        'entity_type' => 'paragraphs_item',
-      ),
-      3 => array(
         'field_name' => 'field_s_story_sections',
         'bundle' => 'p_icon',
         'field_p_icon_columns' => array(
@@ -1449,26 +1439,43 @@ function stanford_story_page_paragraphs_defaults() {
         'entity_bundle' => 'p_icon',
         'entity_type' => 'paragraphs_item',
       ),
-      4 => array(
+      3 => array(
         'field_name' => 'field_s_story_sections',
-        'bundle' => 'p_callout',
-        'field_p_callout_text' => array(
+        'bundle' => 'p_wysiwyg',
+        'field_p_wysiwyg_body' => array(
           'und' => array(
             0 => array(
-              'value' => '<p>The Department Name Experience</p>',
-              'format' => 'minimal_html',
-              'safe_value' => '<p>The Department Name Experience</p>',
+              'value' => '<p>Our mission is to&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+',
+              'format' => 'content_editor_text_format',
+              'safe_value' => '<p>Our mission is to Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+',
             ),
           ),
         ),
-        'field_p_callout_color' => array(
+        'entity_bundle' => 'p_wysiwyg',
+        'entity_type' => 'paragraphs_item',
+      ),
+      4 => array(
+        'field_name' => 'field_s_story_sections',
+        'bundle' => 'p_section_header',
+        'field_p_section_color' => array(
           'und' => array(
             0 => array(
               'value' => 'light-taupe',
             ),
           ),
         ),
-        'entity_bundle' => 'p_callout',
+        'field_p_section_heading' => array(
+          'und' => array(
+            0 => array(
+              'value' => '"Department Name" Experience',
+              'format' => NULL,
+              'safe_value' => '&quot;Department Name&quot; Experience',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_section_header',
         'entity_type' => 'paragraphs_item',
       ),
       5 => array(
@@ -1654,24 +1661,24 @@ function stanford_story_page_paragraphs_defaults() {
       ),
       6 => array(
         'field_name' => 'field_s_story_sections',
-        'bundle' => 'p_callout',
-        'field_p_callout_text' => array(
-          'und' => array(
-            0 => array(
-              'value' => '<p>Latest Happenings at Department Name</p>',
-              'format' => 'minimal_html',
-              'safe_value' => '<p>Latest Happenings at Department Name</p>',
-            ),
-          ),
-        ),
-        'field_p_callout_color' => array(
+        'bundle' => 'p_section_header',
+        'field_p_section_color' => array(
           'und' => array(
             0 => array(
               'value' => 'light-taupe',
             ),
           ),
         ),
-        'entity_bundle' => 'p_callout',
+        'field_p_section_heading' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'Latest Happenings at "Department Name"',
+              'format' => NULL,
+              'safe_value' => 'Latest Happenings at &quot;Department Name&quot;',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_section_header',
         'entity_type' => 'paragraphs_item',
       ),
       7 => array(
@@ -1692,24 +1699,24 @@ function stanford_story_page_paragraphs_defaults() {
       ),
       8 => array(
         'field_name' => 'field_s_story_sections',
-        'bundle' => 'p_callout',
-        'field_p_callout_text' => array(
-          'und' => array(
-            0 => array(
-              'value' => '<p>Connect With Us</p>',
-              'format' => 'minimal_html',
-              'safe_value' => '<p>Connect With Us</p>',
-            ),
-          ),
-        ),
-        'field_p_callout_color' => array(
+        'bundle' => 'p_section_header',
+        'field_p_section_color' => array(
           'und' => array(
             0 => array(
               'value' => 'light-taupe',
             ),
           ),
         ),
-        'entity_bundle' => 'p_callout',
+        'field_p_section_heading' => array(
+          'und' => array(
+            0 => array(
+              'value' => 'Connect With Us',
+              'format' => NULL,
+              'safe_value' => 'Connect With Us',
+            ),
+          ),
+        ),
+        'entity_bundle' => 'p_section_header',
         'entity_type' => 'paragraphs_item',
       ),
       9 => array(
