@@ -8,67 +8,19 @@
 include_once 'stanford_story_page.features.inc';
 
 /**
- * Implements hook_theme_registry_alter().
- *
- * Scans and adds any tpl files within the module.
- *
- * @see https://www.drupal.org/docs/7/creating-custom-modules/howtos/using-template-tplphp-files-in-your-own-module
- */
-function stanford_story_page_theme_registry_alter(&$theme_registry) {
-  $module_path = drupal_get_path('module', 'stanford_story_page');
-  $template_objects = drupal_find_theme_templates($theme_registry, '.tpl.php', $module_path);
-  foreach ($template_objects as $key => $template_object) {
-    if (!isset($theme_registry[$key]['theme path']) || !preg_match('#/themes/#', $theme_registry[$key]['theme path'])) {
-      $theme_registry[$key]['theme path'] = $module_path;
-      $theme_registry[$key] = array_merge($theme_registry[$key], $template_object);
-      $theme_registry[$key]['type'] = 'module';
-    }
-  }
-}
-
-/**
  * Implements hook_preprocess_html().
  */
 function stanford_story_page_preprocess_html(&$vars) {
-  if (in_array('node-type-stanford-story', $vars['classes_array'])) {
-    $remove_classes = array(
-      'one-sidebar sidebar-first',
-      'two-sidebars',
-      'one-sidebar sidebar-second',
-    );
-    // Strip out the above classes since some JS messes with classes.
-    foreach ($remove_classes as $class) {
-      if ($pos = array_search($class, $vars['classes_array'])) {
-        unset($vars['classes_array'][$pos]);
-      }
+  if (arg(0) == 'node' && ($node = node_load(arg(1)))) {
+    $hide_title = field_get_items('node', $node, 'field_s_story_hide_title');
+    if ($hide_title && $hide_title[0]['value']) {
+      $vars['classes_array'][] = 'hide-title';
     }
   }
 }
 
 /**
- * Implements hook_preprocess_HOOK().
- */
-function stanford_story_page_preprocess_page(&$vars) {
-  global $theme;
-  if (isset($vars['node']) && $theme == variable_get('theme_default', 'seven')) {
-    // Adds a new theme file per node type, such as page--node--article.tpl.php.
-    $vars['theme_hook_suggestions'][] = 'page__node__' . $vars['node']->type;
-
-    if ($vars['node']->type == 'stanford_story_page' && !empty($vars['node']->field_s_story_hide_title)) {
-      if ($vars['node']->field_s_story_hide_title[LANGUAGE_NONE][0]['value']) {
-        if (isset($vars['site_title_position_classes'])) {
-          $vars['site_title_position_classes'] .= ' hide-title';
-        }
-        else {
-          $vars['site_title_position_classes'] = 'hide-title';
-        }
-      }
-    }
-  }
-}
-
-/**
- * Implements hook_preprocess_HOOK().
+ * Implements hook_preprocess_node().
  */
 function stanford_story_page_preprocess_node(&$vars) {
   if ($vars['type'] == 'stanford_story_page' && $vars['page']) {
