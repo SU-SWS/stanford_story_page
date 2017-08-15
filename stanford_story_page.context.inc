@@ -14,8 +14,8 @@ function stanford_story_page_context_default_contexts() {
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'stanford_story_page';
-  $context->description = '';
-  $context->tag = '';
+  $context->description = 'Disables the sidebar regions on story page content type.';
+  $context->tag = 'Sub-pages';
   $context->conditions = array(
     'node' => array(
       'values' => array(
