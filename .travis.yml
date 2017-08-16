@@ -56,6 +56,8 @@ env:
 #    - CLICKY_BRANCH=""
 #    - SCRIPTS_BRANCH=""
 
+dist: precise
+
 language: php
 php:
   - '5.6'
