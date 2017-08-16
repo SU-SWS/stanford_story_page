@@ -1,10 +1,11 @@
 # [Stanford Story Page](https://github.com/SU-SWS/stanford_story_page)
-##### Version: 7.x-2.1-dev
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 [Changelog.txt](CHANGELOG.txt)
 
-This module provides a content type (Stanford Page) that incorporates the Stanford Image Field Collection. It is the de-facto page content type for all Jumpstart products. Included in this module is also a view that works with the Stanford manage content feature to provide an administration page where users can view, sort, search, and filter through Stanford Page content.
+This module provides a content type (Stanford Story Page) that incorporates the
+[Stanford Paragraph Types](https://github.com/SU-SWS/stanford_paragraph_types).
+It uses paragraphs to allow for more modern and flexible page designs.
 
 
 Installation
