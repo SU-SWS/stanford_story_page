@@ -1,4 +1,4 @@
-.node-type-stanford-story-page .hide-title #page-title {
+.node-type-stanford-story-page.hide-title #page-title {
   font-size: 0;
   width: 0;
   height: 0;
@@ -11,6 +11,10 @@
 }
 .node-type-stanford-story-page .content-head {
   margin-bottom: 0;
+}
+.node-type-stanford-story-page #main > div,
+.node-type-stanford-story-page #content {
+  width: 100%;
 }
 .node-type-stanford-story-page #main .region:not(.region-content),
 .node-type-stanford-story-page #content-wrapper > div:not(.content-body) {
