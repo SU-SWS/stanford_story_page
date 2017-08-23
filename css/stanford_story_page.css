@@ -15,9 +15,13 @@
 .node-type-stanford-story-page #main > div,
 .node-type-stanford-story-page #content {
   width: 100%;
+  margin: 0;
 }
 .node-type-stanford-story-page #main .region:not(.region-content),
 .node-type-stanford-story-page #content-wrapper > div:not(.content-body) {
   max-width: 1170px;
   margin: 0 auto;
+}
+.node-type-stanford-story-page #main-content {
+  margin: 0;
 }
