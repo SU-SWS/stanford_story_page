@@ -10,8 +10,9 @@ It uses paragraphs to allow for more modern and flexible page designs.
 
 Installation
 ---
+This module requires [Stanford Paragraph Types](https://github.com/SU-SWS/stanford_paragraph_types), [Multiple Selects](https://www.drupal.org/project/multiple_selects) and [Block Reference](https://www.drupal.org/project/blockreference) modules to obtain the full functionality.
 
-Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
+Once the dependencies are downloaded, install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
 
 Configuration
 ---
