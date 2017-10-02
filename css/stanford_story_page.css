@@ -22,6 +22,7 @@
   max-width: 1170px;
   margin: 0 auto;
 }
-.node-type-stanford-story-page #main-content {
+.node-type-stanford-story-page #main-content,
+.node-type-stanford-story-page #content {
   margin: 0;
 }
