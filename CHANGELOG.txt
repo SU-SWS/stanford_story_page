@@ -1,7 +1,7 @@
 Stanford Story Page
 --------------------------------
 
-7.x-1.3              2018-06-27
+7.x-1.3-alpha1              2018-06-27
 -------------------------------
 - Changed default image
 - Added mobile css tweaks
